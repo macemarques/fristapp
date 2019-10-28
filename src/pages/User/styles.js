@@ -40,7 +40,7 @@ export const Stars = styled.FlatList.attrs({
   margin-top: 20px;
 `;
 
-export const Starrred = styled.View`
+export const Starred = styled.View`
   background: #f5f5f5;
   border-radius: 4px;
   padding: 10px 15px;
@@ -71,4 +71,14 @@ export const Author = styled.Text`
   font-size: 13px;
   color: #666;
   margin-top: 2px;
+`;
+
+export const Loading = styled.ActivityIndicator.attrs({
+  color: '#7159c1',
+  size: 50,
+})`
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 `;

@@ -23,6 +23,7 @@ export default class Main extends Component {
     newUser: '',
     users: [],
     loading: false,
+    refreshing: true,
   };
 
   static propTypes = {
